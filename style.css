@@ -51,7 +51,7 @@ svg {
 body {
     display: grid;
     place-content: center;
-    margin: 5rem 1.5rem;
+    margin: 5.5rem 1.5rem;
     font-family: var(--font-family-default);
     background: var(--clr-primary-900);
 }
@@ -177,6 +177,9 @@ footer {
 
 /* Start responsive style */
 @media (min-width: 1130px) {
+    body {
+        margin: 0;
+    }
     .preview-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
