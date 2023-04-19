@@ -157,14 +157,12 @@ body {
 /* Start footer style */
 
 footer {
-    position: fixed;
-    bottom: 0;
     margin-top: 2rem;
     width: 100%;
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: var(--fs-mobile-400);
     text-align: center;
     color: #ffff;
 }
@@ -181,7 +179,7 @@ footer {
 @media (min-width: 1130px) {
     body {
         place-content: center;
-        /* margin: 0; */
+        margin: 0;
     }
     .preview-card {
         display: grid;
@@ -238,6 +236,10 @@ footer {
         align-items: flex-start;
     }
 
+    footer {
+    position: fixed;
+    bottom: 0;
+    }
     /* End states side  resposive style*/
 }
 
